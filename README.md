@@ -31,7 +31,7 @@ ember install:addon ember-cli-styles-reloader
 }
 ````
 
-... and everything should work just fine.
+... and everything should work just fine. In case your `liveReloadHost` is different (e.g. if you are using a virtual machine), you should its IP that instead of `127.0.0.1`
 
 ## Configurations
 

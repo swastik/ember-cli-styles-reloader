@@ -25,9 +25,11 @@ ember install:addon ember-cli-styles-reloader
 
 * ember-cli 1.13.11 and above don't have `liveReloadHost` defined. That prevents the styles from reloading when there's a change. To fix this, in your `.ember-cli` file, add the following:
 
+````
 {
   "liveReloadHost": "127.0.0.1"
 }
+````
 
 ... and everything should work just fine.
 

@@ -21,6 +21,16 @@ For Ember CLI < `0.2.3`:
 ember install:addon ember-cli-styles-reloader
 ```
 
+### Known issues
+
+* ember-cli 1.13.11 and above don't have `liveReloadHost` defined. That prevents the styles from reloading when there's a change. To fix this, in your `.ember-cli` file, add the following:
+
+{
+  "liveReloadHost": "127.0.0.1"
+}
+
+... and everything should work just fine.
+
 ## Configurations
 
 * All style changes can be animated to smoothly transition between old/new change sets.

@@ -27,11 +27,11 @@ ember install:addon ember-cli-styles-reloader
 
 ````
 {
-  "liveReloadHost": "VIRTUAL_MACHINE_IP"
+  "liveReloadHost": "ember_cli_workstation"
 }
 ````
 
-Replace `VIRTUAL_MACHINE_IP` with the actual IP of your virtual machine.
+Replace `ember_cli_workstation` with the actual IP of your virtual machine (or anything that you are developing on).
 
 ## Configurations
 
